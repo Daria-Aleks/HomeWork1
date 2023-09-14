@@ -3,11 +3,11 @@ let a = 10;
 alert (a);
 alert (a + 10);
 //Задание 2
-let FirstIPhone = 2007;
-alert (FirstIPhone);
+let firstPhone = 2007;
+alert (firstPhone);
 //Задание 3
-const Name="Брендан Эйх";
-alert(Name);
+const name="Брендан Эйх";
+alert(name);
 //Задание 4
 let x = 10;
 let y = 2;
@@ -24,12 +24,12 @@ let c = 2;
 alert(b%c);
 //Задание 7
 let num = 1;
-num = num + 5;
-num = num - 3;
-num = num * 7;
-num = num / 3;
-num = num + 1;
-num = num - 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num++;
+num--;
 alert(num);
 //Задание 8
 let age = prompt ('Сколько вам лет?');
@@ -40,18 +40,18 @@ const User={
     age: '17'
     isAdmin: true;
 };
-alert (User.name)
+alert (user.name)
 //Задание 9.1
-User ["city of residence"] = true;
-alert (User["city of residence"]);
+user ["city of residence"] = true;
+alert (user["city of residence"]);
 //Задание 9.2
 User.age = "22";
-alert(User.age);
+alert(user.age);
 //Задание 9.3
-delete User["ciy of residence"];
+delete user["ciy of residence"];
 //Задание 9.4
 let information = prompt('Какую информацию вы хотите узнать о пользователе?');
-alert(User.information);
+alert(user.[information]);
 //Задание 10
-let UserName = prompt('Назовите ваше имя');
-alert('Привет,' + UserName +'!');
+let userName = prompt('Назовите ваше имя');
+alert('Привет,' + userName +'!');
