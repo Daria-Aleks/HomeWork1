@@ -35,7 +35,7 @@ alert(num);
 let age = prompt ('Сколько вам лет?');
 alert(age);
 //Задание 9.0
-const User={
+const user={
     name:'Marti'
     age: '17'
     isAdmin: true;
@@ -45,13 +45,13 @@ alert (user.name)
 user ["city of residence"] = true;
 alert (user["city of residence"]);
 //Задание 9.2
-User.age = "22";
+user.age = "22";
 alert(user.age);
 //Задание 9.3
 delete user["ciy of residence"];
 //Задание 9.4
 let information = prompt('Какую информацию вы хотите узнать о пользователе?');
-alert(user.[information]);
+alert(user[information]);
 //Задание 10
 let userName = prompt('Назовите ваше имя');
 alert('Привет,' + userName +'!');
