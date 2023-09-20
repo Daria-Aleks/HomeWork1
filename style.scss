@@ -39,6 +39,7 @@ body {
         font-weight: 300;
         line-height: 32px; /* 177.778% */
         font-family: 'Montserrat', sans-serif;
+        width: 481px;
         &_box{
             display: flex;
             flex-direction: column;
@@ -124,3 +125,4 @@ body {
 .transition {
     transition: 1s;
   }
+@import "mobile";
