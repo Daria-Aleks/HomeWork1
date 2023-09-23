@@ -1,6 +1,6 @@
-let password = prompt('Введите пароль');
-let message;
-if (password='helpmepls') { 
+let userPassword = prompt('Введите пароль');
+let message = 'helpmepls';
+if (userPassword === message) { 
     message = 'Пароль введен верно';
 } else {
     message = 'Пароль введен неправильно';
