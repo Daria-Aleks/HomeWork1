@@ -5,15 +5,22 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-family: "Poppins", sans-serif;
-}
-
-.main {
-  height: 1024px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/background.jpeg), lightgray 50%/cover no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.main {
+  height: 1024px;
 }
 .main__content {
   padding-top: 217px;
@@ -31,7 +38,6 @@ body {
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  width: 788px;
 }
 .main__text {
   color: #FFF;
@@ -82,29 +88,38 @@ body {
   height: 556px;
   padding-top: 128px;
   padding-left: 120px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  display: flex;
+  justify-content: center;
   gap: 32px;
+  width: 100%;
+}
+.game__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .game__card_1 {
   background-image: url(img/game1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 379px;
+  width: 100%;
+  max-width: 379px;
   height: 300px;
 }
 .game__card_2 {
   background-image: url(img/game2.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 379px;
+  width: 100%;
+  max-width: 379px;
   height: 300px;
 }
 .game__card_3 {
   background-image: url(img/game3.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 379px;
+  width: 100%;
+  max-width: 379px;
   height: 300px;
 }
 .game__text {
@@ -155,10 +170,11 @@ body {
     justify-content: center;
   }
   .game {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 0px;
-    padding-left: 16px;
+    padding-left: 0px;
     height: 1021px;
-    padding-right: 16px;
+    padding-right: 0px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -34,10 +34,11 @@
     }
     
     .game {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-wrap: wrap;
         gap: 0px;
-        padding-left: 16px;
+        padding-left: 0px;
         height: 1021px;
-        padding-right: 16px;
+        padding-right: 0px;
     }
 }
