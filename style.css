@@ -5,7 +5,6 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-family: "Poppins", sans-serif;
 }
 
 .main {
@@ -17,7 +16,8 @@ body {
 }
 .main__content {
   padding-top: 217px;
-  padding-left: 120px;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 .main__header {
   color: #FFF;
@@ -40,6 +40,7 @@ body {
   font-weight: 300;
   line-height: 32px; /* 177.778% */
   font-family: "Montserrat", sans-serif;
+  width: 481px;
 }
 .main__text_box {
   display: flex;
@@ -80,10 +81,11 @@ body {
   background: hsl(214, 100%, 4%);
   height: 556px;
   padding-top: 128px;
-  padding-left: 120px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 32px;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 .game__card_1 {
   background-image: url(img/game1.png);
@@ -119,4 +121,44 @@ body {
 
 .transition {
   transition: 1s;
+}
+
+@media (max-width: 375px) {
+  .main {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/mobile_bg.png), lightgray -240.259px 0px/294% 100% no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 735px;
+  }
+  .main__content {
+    padding-top: 238px;
+    padding-left: 16px;
+  }
+  .main__header {
+    font-size: 32px;
+  }
+  .main__header_box {
+    width: 343px;
+    text-align: center;
+  }
+  .main__text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 323px;
+  }
+  .main__text_box {
+    text-align: center;
+  }
+  .main__button_box {
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .game {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    padding-left: 16px;
+    height: 1221px;
+  }
 }/*# sourceMappingURL=style.css.map */

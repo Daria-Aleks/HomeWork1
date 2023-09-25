@@ -5,7 +5,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
 }
 
 .main {
@@ -16,7 +15,8 @@ body {
     background-size: cover;
     &__content{
         padding-top: 217px;
-        padding-left: 120px;
+        padding-left: calc(50% - 600px);
+        padding-right: calc(50% - 600px);
     }
     &__header{
         color: #FFF;
@@ -39,6 +39,7 @@ body {
         font-weight: 300;
         line-height: 32px; /* 177.778% */
         font-family: 'Montserrat', sans-serif;
+        width: 481px;
         &_box{
             display: flex;
             flex-direction: column;
@@ -80,10 +81,11 @@ body {
     background: hsl(214, 100%, 4%);
     height: 556px;
     padding-top: 128px;
-    padding-left: 120px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 32px;
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
     &__card {
         &_1{
             background-image: url(img/game1.png);
@@ -124,3 +126,4 @@ body {
 .transition {
     transition: 1s;
   }
+@import "mobile";
