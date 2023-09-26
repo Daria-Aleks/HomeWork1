@@ -82,7 +82,7 @@ body {
     height: 556px;
     padding-top: 128px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    display: flex;
     gap: 32px;
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
