@@ -7,10 +7,16 @@ body {
   font-family: "Montserrat", sans-serif;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .main {
   height: 1024px;
+=======
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
   display: flex;
   align-items: center;
@@ -103,6 +109,7 @@ body {
   padding-top: 128px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   display: grid;
   display: flex;
   gap: 32px;
@@ -119,6 +126,12 @@ body {
   justify-content: center;
   gap: 32px;
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
+=======
+  padding-left: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
   width: 100%;
 }
 .game__inner {
@@ -126,6 +139,9 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
+=======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
@@ -171,7 +187,11 @@ body {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (max-width: 640px) {
+=======
+@media (max-width: 375px) {
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
 @media (max-width: 375px) {
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
@@ -206,9 +226,12 @@ body {
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .main__text_strong {
     font-size: 14px;
   }
+=======
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
@@ -220,6 +243,7 @@ body {
   }
   .game {
     display: flex;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     gap: 32px;
@@ -241,12 +265,17 @@ body {
 =======
 =======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
+=======
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
     flex-wrap: wrap;
     gap: 0px;
     padding-left: 0px;
     height: 1021px;
     padding-right: 0px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
+=======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b

@@ -7,10 +7,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .main {
     height: 1024px;
+=======
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
     display: flex;
     align-items: center;
@@ -104,6 +110,7 @@ body {
     padding-top: 128px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     display: grid;
     display: flex;
     gap: 32px;
@@ -120,6 +127,12 @@ body {
     justify-content: center;
     gap: 32px;
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
+=======
+    padding-left: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
     width: 100%;
     &__inner{
         display: flex;
@@ -127,6 +140,9 @@ body {
         flex-wrap: wrap;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
+=======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
