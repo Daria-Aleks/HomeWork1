@@ -8,10 +8,16 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .main {
   height: 1024px;
+=======
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
   display: flex;
   align-items: center;
@@ -110,6 +116,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   display: grid;
   display: flex;
   gap: 32px;
@@ -132,6 +139,12 @@ body {
   justify-content: center;
   gap: 32px;
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
+=======
+  padding-left: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
   width: 100%;
 }
 .game__inner {
@@ -140,6 +153,9 @@ body {
   flex-wrap: wrap;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
+=======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
@@ -188,7 +204,11 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (max-width: 640px) {
+=======
+@media (max-width: 375px) {
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
 @media (max-width: 375px) {
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
@@ -227,9 +247,12 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .main__text_strong {
     font-size: 14px;
   }
+=======
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
@@ -243,6 +266,7 @@ body {
   }
   .game {
     display: flex;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -267,6 +291,8 @@ body {
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
+=======
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
     flex-wrap: wrap;
     gap: 0px;
     padding-left: 0px;
@@ -274,6 +300,9 @@ body {
     padding-right: 0px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
+=======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
 =======
 >>>>>>> 969041e4caf71df712b0407891de86f32171566b
