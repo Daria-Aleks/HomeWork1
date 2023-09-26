@@ -5,14 +5,29 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+<<<<<<< HEAD
 }
 
 .main {
   height: 1024px;
+=======
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/background.jpeg), lightgray 50%/cover no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.main {
+  height: 1024px;
 }
 .main__content {
   padding-top: 217px;
@@ -31,7 +46,6 @@ body {
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  width: 788px;
 }
 .main__text {
   color: #FFF;
@@ -81,31 +95,47 @@ body {
   background: hsl(214, 100%, 4%);
   height: 556px;
   padding-top: 128px;
+<<<<<<< HEAD
   display: grid;
   display: flex;
   gap: 32px;
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
+=======
+  padding-left: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+}
+.game__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
 }
 .game__card_1 {
   background-image: url(img/game1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 379px;
+  width: 100%;
+  max-width: 379px;
   height: 300px;
 }
 .game__card_2 {
   background-image: url(img/game2.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 379px;
+  width: 100%;
+  max-width: 379px;
   height: 300px;
 }
 .game__card_3 {
   background-image: url(img/game3.png);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 379px;
+  width: 100%;
+  max-width: 379px;
   height: 300px;
 }
 .game__text {
@@ -123,7 +153,11 @@ body {
   transition: 1s;
 }
 
+<<<<<<< HEAD
 @media (max-width: 640px) {
+=======
+@media (max-width: 375px) {
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
   .main {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/mobile_bg.png), lightgray -240.259px 0px/294% 100% no-repeat;
     background-position: center;
@@ -150,9 +184,12 @@ body {
   .main__text_box {
     text-align: center;
   }
+<<<<<<< HEAD
   .main__text_strong {
     font-size: 14px;
   }
+=======
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
   .main__button_box {
     padding-top: 32px;
     display: flex;
@@ -160,6 +197,7 @@ body {
   }
   .game {
     display: flex;
+<<<<<<< HEAD
     gap: 32px;
     padding-left: 16px;
     height: 1221px;
@@ -176,5 +214,12 @@ body {
   .game__card_3 {
     background-image: url(img/game3_mob.png);
     width: 343px;
+=======
+    flex-wrap: wrap;
+    gap: 0px;
+    padding-left: 0px;
+    height: 1021px;
+    padding-right: 0px;
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
   }
 }/*# sourceMappingURL=style.css.map */

@@ -5,14 +5,30 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
 }
 
 .main {
     height: 1024px;
+=======
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -7.35%, #000915 100%), url(img/background.jpeg), lightgray 50% / cover no-repeat;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+}
+
+.main {
+    height: 1024px;
     &__content{
         padding-top: 217px;
         padding-left: calc(50% - 600px);
@@ -29,7 +45,6 @@ body {
             flex-direction: column;
             justify-content: center;
             flex-shrink: 0;
-            width: 788px;
         }
     }
     &__text{
@@ -81,31 +96,47 @@ body {
     background: hsl(214, 100%, 4%);
     height: 556px;
     padding-top: 128px;
+<<<<<<< HEAD
     display: grid;
     display: flex;
     gap: 32px;
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
+=======
+    padding-left: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+>>>>>>> 969041e4caf71df712b0407891de86f32171566b
     &__card {
         &_1{
             background-image: url(img/game1.png);
             background-size: cover;
             background-repeat: no-repeat;
-            width: 379px;
+            width: 100%;
+            max-width: 379px;
             height: 300px;
         }
         &_2{
             background-image: url(img/game2.png);
             background-size: cover;
             background-repeat: no-repeat;
-            width: 379px;
+            width: 100%;
+            max-width: 379px;
             height: 300px;
         }
         &_3{
             background-image: url(img/game3.png);
             background-size: cover;
             background-repeat: no-repeat;
-            width: 379px;
+            width: 100%;
+            max-width: 379px;
             height: 300px;
         }
     }
