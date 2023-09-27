@@ -5,27 +5,19 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  height: 1024px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/background.jpeg), lightgray 50%/cover no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.container {
-  width: 100%;
-  max-width: 1440px;
-}
-
-.main {
-  height: 1024px;
-}
 .main__content {
   padding-top: 217px;
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
+  padding-left: 120px;
 }
 .main__header {
   color: #FFF;
@@ -88,20 +80,10 @@ body {
   background: hsl(214, 100%, 4%);
   height: 556px;
   padding-top: 128px;
-  display: flex;
-  gap: 32px;
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
   padding-left: 120px;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
   gap: 32px;
-  width: 100%;
-}
-.game__inner {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 .game__card_1 {
   background-image: url(img/game1.png);
@@ -142,7 +124,7 @@ body {
   transition: 1s;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 640px) {
   .main {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(img/mobile_bg.png), lightgray -240.259px 0px/294% 100% no-repeat;
     background-position: center;
@@ -169,6 +151,9 @@ body {
   .main__text_box {
     text-align: center;
   }
+  .main__text_strong {
+    font-size: 14px;
+  }
   .main__button_box {
     padding-top: 32px;
     display: flex;
@@ -176,10 +161,21 @@ body {
   }
   .game {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0px;
-    padding-left: 0px;
-    height: 1021px;
-    padding-right: 0px;
+    gap: 32px;
+    padding-left: 16px;
+    height: 1221px;
+    flex-direction: column;
+  }
+  .game__card_1 {
+    background-image: url(img/game1_mob.png);
+    width: 343px;
+  }
+  .game__card_2 {
+    background-image: url(img/game2_mob.png);
+    width: 343px;
+  }
+  .game__card_3 {
+    background-image: url(img/game3_mob.png);
+    width: 343px;
   }
 }/*# sourceMappingURL=style.css.map */
