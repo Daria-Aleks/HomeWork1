@@ -93,7 +93,9 @@ body {
   padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
   padding-left: 120px;
+  display: flex;
   justify-content: center;
+  gap: 32px;
   width: 100%;
 }
 .game__inner {
@@ -167,9 +169,6 @@ body {
   .main__text_box {
     text-align: center;
   }
-  .main__text_strong {
-    font-size: 14px;
-  }
   .main__button_box {
     padding-top: 32px;
     display: flex;
@@ -177,21 +176,10 @@ body {
   }
   .game {
     display: flex;
-    gap: 32px;
-    padding-left: 16px;
-    height: 1221px;
-    flex-direction: column;
-  }
-  .game__card_1 {
-    background-image: url(img/game1_mob.png);
-    width: 343px;
-  }
-  .game__card_2 {
-    background-image: url(img/game2_mob.png);
-    width: 343px;
-  }
-  .game__card_3 {
-    background-image: url(img/game3_mob.png);
-    width: 343px;
+    flex-wrap: wrap;
+    gap: 0px;
+    padding-left: 0px;
+    height: 1021px;
+    padding-right: 0px;
   }
 }/*# sourceMappingURL=style.css.map */

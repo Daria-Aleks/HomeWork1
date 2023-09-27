@@ -5,58 +5,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-
-.main {
-    height: 1024px;
-=======
     display: flex;
     align-items: center;
     flex-direction: column;
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
-    display: flex;
-    align-items: center;
-    flex-direction: column;
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
-    display: flex;
-    align-items: center;
-    flex-direction: column;
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
-    display: flex;
-    align-items: center;
-    flex-direction: column;
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
-    display: flex;
-    align-items: center;
-    flex-direction: column;
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
-    display: flex;
-    align-items: center;
-    flex-direction: column;
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
-    display: flex;
-    align-items: center;
-    flex-direction: column;
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
-    display: flex;
-    align-items: center;
-    flex-direction: column;
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -7.35%, #000915 100%), url(img/background.jpeg), lightgray 50% / cover no-repeat;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,35 +148,12 @@ body {
     display: flex;
     justify-content: center;
     gap: 32px;
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
     width: 100%;
     &__inner{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
-=======
->>>>>>> 969041e4caf71df712b0407891de86f32171566b
     &__card {
         &_1{
             background-image: url(img/game1.png);
