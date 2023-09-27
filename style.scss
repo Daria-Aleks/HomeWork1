@@ -81,9 +81,8 @@ body {
     height: 556px;
     padding-top: 128px;
     padding-left: 120px;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 32px;
+    display: flex;
+    flex-direction: column;
     &__card {
         &_1{
             background-image: url(img/game1.png);
@@ -120,7 +119,12 @@ body {
         padding-top: 236px;
         padding-left: 32px;
     }
+    .container {
+        display: flex;
+        gap: 30px
+    }
 }
+
 
 
 
